@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopierApp", "CopierApp\CopierApp.csproj", "{7557E026-89B8-4272-84C1-7939D83E6188}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopierTest", "CopierTest\CopierTest.csproj", "{3BAA9955-6761-4C4C-A392-9AB6B2E507C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie1", "Zadanie1\Zadanie1.csproj", "{C78DBD9B-5A9F-4D7A-B7C1-8FD4DE314E66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7557E026-89B8-4272-84C1-7939D83E6188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7557E026-89B8-4272-84C1-7939D83E6188}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7557E026-89B8-4272-84C1-7939D83E6188}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7557E026-89B8-4272-84C1-7939D83E6188}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3BAA9955-6761-4C4C-A392-9AB6B2E507C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BAA9955-6761-4C4C-A392-9AB6B2E507C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BAA9955-6761-4C4C-A392-9AB6B2E507C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BAA9955-6761-4C4C-A392-9AB6B2E507C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78DBD9B-5A9F-4D7A-B7C1-8FD4DE314E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78DBD9B-5A9F-4D7A-B7C1-8FD4DE314E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78DBD9B-5A9F-4D7A-B7C1-8FD4DE314E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78DBD9B-5A9F-4D7A-B7C1-8FD4DE314E66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

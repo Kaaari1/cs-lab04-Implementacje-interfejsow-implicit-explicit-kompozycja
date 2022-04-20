@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CopierApp
+namespace Zadanie1
 {
     class Program
     {
