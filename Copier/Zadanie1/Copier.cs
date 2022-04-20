@@ -43,7 +43,7 @@ namespace Zadanie1
                     
                     break;
             }
-            string nameFile = string.Format(type + "Scan" + ScanCounter + 1 + "." + formatType.ToString());
+            string nameFile = string.Format(type + "Scan" + (ScanCounter + 1) + "." + formatType.ToString());
             if (formatType == IDocument.FormatType.TXT)
             {
                 document = new TextDocument(nameFile);
