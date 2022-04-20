@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace ver1
+namespace Zadanie1
 {
     public interface IDevice
     {

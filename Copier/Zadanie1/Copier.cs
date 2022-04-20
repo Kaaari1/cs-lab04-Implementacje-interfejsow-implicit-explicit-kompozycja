@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace ver1
+namespace Zadanie1
 {
-    public class Copier :BaseDevice, IPrinter, IScanner
+    public class Copier : BaseDevice, IPrinter, IScanner
     {
         public int PrintCounter { get; set; } = 0;
         public int ScanCounter { get; set; } = 0;
@@ -19,7 +19,7 @@ namespace ver1
             DateTime localDate = DateTime.Now;
             if (state == IDevice.State.on)
             {
-                Console.WriteLine(localDate+" Print: "+document.GetFileName());
+                Console.WriteLine(localDate + " Print: " + document.GetFileName());
                 PrintCounter++;
             }
         }
@@ -51,4 +51,5 @@ namespace ver1
         }
     }
 }
+
 

@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace ver1
+namespace Zadanie1
 {
     public interface IDocument
     {
@@ -45,5 +47,4 @@ namespace ver1
         public TextDocument(string filename) : base(filename) { }
         public override IDocument.FormatType GetFormatType() => IDocument.FormatType.TXT;
     }
-
 }
